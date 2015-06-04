@@ -51,5 +51,9 @@ group :development, :test do
   gem 'spring'
 end
 
+group :production do
+	gem 'pg'
+end
+
 gem 'will_paginate', '~> 3.0.7'
 gem 'will_paginate-bootstrap', '~> 1.0.1'
