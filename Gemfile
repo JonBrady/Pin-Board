@@ -53,7 +53,10 @@ end
 
 group :production do
 	gem 'pg'
+	gem 'rails_12factor'
 end
 
 gem 'will_paginate', '~> 3.0.7'
 gem 'will_paginate-bootstrap', '~> 1.0.1'
+
+
