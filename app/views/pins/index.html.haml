@@ -7,3 +7,5 @@
 				%p.user
 				Submitted by
 				= pin.user.email
+
+= will_paginate @pins, renderer: BootstrapPagination::Rails   #, class: "pagination pagination-centered"
